@@ -9,7 +9,7 @@ scene.background = new THREE.Color(0x262626)
 const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100)    // Camera.
 camera.position.set(0, 0, 10)
 
-const geometry = new THREE.BoxGeometry(2, 2, 2)                             // Cube.
+const geometry = new THREE.BoxGeometry(2.5, 2.5, 2.5)                             // Cube.
 const material = new THREE.MeshBasicMaterial({
     color: 0xffffff,
     wireframe: true
