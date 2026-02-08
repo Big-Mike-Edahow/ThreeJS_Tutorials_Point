@@ -6,6 +6,7 @@ const gui = new dat.GUI()
 
 const scene = new THREE.Scene()                                             // Scene.
 scene.background = new THREE.Color(0x262626)
+scene.fog = new THREE.FogExp2(0xffffff, 0.01)
 
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5)                  // Lights.
 scene.add(ambientLight)
